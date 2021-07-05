@@ -11,12 +11,17 @@ ul{
 a{
     text-decoration: none;
 }
+h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(110, 101, 101)
+}
 nav{
+    height: 60px;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(106, 4, 190);
+    background-color: rgb(34, 3, 95);
     align-items: center;
-    padding: 15px 0px;
     padding-left: 20px;
 }
 .logo{
@@ -35,4 +40,28 @@ nav{
 }
 .nav-links li a:hover{
     color: rgb(175, 246, 255)
+}
+.banner{
+    display: flex;
+}
+
+.banner-items{
+    width: 50%;
+    padding: 60px 15px;
+}
+
+.details{
+    font-size: 20px;
+    padding: 25px 0;
+}
+.button-order{
+    padding: 10px 30px;
+    background-image: linear-gradient(rgb(34, 3, 95),rgb(20, 149, 255) );
+    font-size: 25px;
+    border-radius: 25px;
+    color: white;
+}
+.banner-left{
+    padding-top: 50px;
+    padding-left: 80px;
 }
