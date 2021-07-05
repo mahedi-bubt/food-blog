@@ -16,6 +16,10 @@ h1{
     font-weight: 900;
     color: rgb(110, 101, 101)
 }
+h2{
+    font-size: 30px;
+    color: gray;
+}
 nav{
     height: 60px;
     display: flex;
@@ -47,7 +51,7 @@ nav{
 
 .banner-items{
     width: 50%;
-    padding: 60px 15px;
+    padding: 40px 15px;
 }
 
 .details{
@@ -55,13 +59,85 @@ nav{
     padding: 25px 0;
 }
 .button-order{
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-image: linear-gradient(rgb(34, 3, 95),rgb(20, 149, 255) );
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 25px;
     color: white;
 }
 .banner-left{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 80px;
+}
+
+.about-me{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-items{
+    width: 50%;
+    padding: 40px 15px;
+}
+.about-right{
+    padding-top: 100px;
+    padding-right: 80px;
+}
+.recipies-items{
+    display: flex;
+}
+.recipies-upper{
+    text-align: center;
+}
+.my-recipies{
+    font-size: 30px;
+    color: gray;
+    margin-top: 40px;
+}
+.recipies-item{
+    width: 25%;
+    box-shadow: 10px 5px 15px gray;
+    padding: 10px;
+    margin: 0 4%;
+    border-radius: 20px;
+}
+.recipies-item img{
+    width:100% ;
+}
+.contact-me h1{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 60px;
+    border-bottom: 3px solid blueviolet;;
+}
+
+.contact-form{
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-image: linear-gradient(rgb(34, 3, 95),rgb(20, 149, 255) );
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(34, 3, 95);
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+.food{
+    color: rgb(180, 252, 236);
 }
