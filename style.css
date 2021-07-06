@@ -18,7 +18,8 @@ h1{
 }
 h2{
     font-size: 30px;
-    color: gray;
+    color: rgb(34, 3, 95);;
+    font-weight: 900;
 }
 nav{
     height: 60px;
@@ -107,8 +108,9 @@ nav{
 }
 .my-recipies{
     font-size: 30px;
-    color: gray;
+    color: rgb(34, 3, 95);
     margin-top: 40px;
+    font-weight: 900;
 }
 .recipies-item{
     width: 25%;
@@ -123,8 +125,13 @@ nav{
 .contact-me h1{
     text-align: center;
     margin-top: 55px;
-    margin-bottom: 60px;
-    border-bottom: 3px solid blueviolet;;
+    margin-bottom: 20px;
+}
+.border{
+    border: 2px solid black;
+    margin-bottom: 40px;
+    width: 300px;
+    margin-left: 525px;
 }
 
 .contact-form{
@@ -147,6 +154,9 @@ button{
     font-size: 20px;
     border-radius: 25px;
     color: white;
+    cursor: pointer;
+    margin-left: 210px;
+    margin-top: 15px;
 }
 
 footer{
